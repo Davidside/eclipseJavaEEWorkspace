@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+    <!--  without autowire
+	    Definition for textEditor bean 
+		<bean id="textEditor" class="com.tutorialspoint.autoByConstructor.TextEditor">
+			<constructor-arg ref="spellChecker" />
+			<constructor-arg value="Generic Text Editor" />
+		</bean>
+		
+		Definition for spellChecker bean 
+		<bean id="spellChecker" class="com.tutorialspoint.autoByConstructor.SpellChecker">
+		</bean>
+	-->
+	
+	<!-- autowire byConstructor-->
+	<!-- Definition for textEditor bean -->
+	<bean id="textEditor" class="com.tutorialspoint.autoByConstructor.TextEditor"
+		autowire="constructor">
+		<constructor-arg value="Generic Text Editor" />
+	</bean>
+	
+	 <!-- Definition for spellChecker bean -->
+	<bean id="SpellChecker" class="com.tutorialspoint.autoByConstructor.SpellChecker">
+	</bean>
+
+</beans>
