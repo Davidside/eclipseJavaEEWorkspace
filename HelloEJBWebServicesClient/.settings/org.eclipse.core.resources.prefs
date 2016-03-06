@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//ejbModule/com/ejb3/webservice/HelloWorldJAXWS.java=UTF-8
+encoding//ejbModule/com/ejb3/webservice/HelloWorldJAXWSService.java=UTF-8
+encoding//ejbModule/com/ejb3/webservice/HelloWorldJAXWSServiceLocator.java=UTF-8
+encoding//ejbModule/com/ejb3/webservice/HelloWorldJAXWSServiceSoapBindingStub.java=UTF-8

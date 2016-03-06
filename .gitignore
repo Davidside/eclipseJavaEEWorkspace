@@ -1,0 +1,10 @@
+OpenShift/
+sophia/
+Servers/
+jboss-as-7.1.1.Final/
+wildfly-9.0.2.Final/
+jboss-5.1.0.GA/
+apache-tomcat-7.0.67/
+.recommenders/
+.metadata/
+RemoteSystemsTempFiles/
